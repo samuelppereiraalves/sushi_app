@@ -166,7 +166,7 @@ The header shows a summary: *X de Y abertas* (how many tables are currently open
 - Most popular items
 
 ### Settings (Admin)
-- Restaurant configuration via a dedicated Definições panel
+- Restaurant configuration via a dedicated Settings panel
 
 ---
 
