@@ -43,7 +43,7 @@ https://sushi-app-lac.vercel.app/client?table=3
 
 ## Overview
 
-This system was built to fully manage a sushi restaurant that supports two service modes - **all you can eat** and **à la carte** - selectable per table. In rodízio mode, customers pay a fixed price per person and order freely from the menu, with certain items marked as **EXTRA** at an additional cost. In à la carte mode, every item has its own price and customers pay for exactly what they order.
+This system was built to fully manage a sushi restaurant that supports two service modes - **all you can eat** and **à la carte** - selectable per table. In all you can eat mode, customers pay a fixed price per person and order freely from the menu, with certain items marked as **EXTRA** at an additional cost. In à la carte mode, every item has its own price and customers pay for exactly what they order.
 
 The app supports three distinct roles - **Admin**, **Staff**, and **Client** - each with their own dedicated interface.
 
