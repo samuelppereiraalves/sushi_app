@@ -182,16 +182,16 @@ The header shows a summary: *X de Y abertas* (how many tables are currently open
 | Express.js | REST API framework |
 | MongoDB Atlas | Cloud database |
 | Mongoose | MongoDB object modeling |
-| JWT (jsonwebtoken) | Access & refresh token authentication |
+| Cloudinary | Cloud image storage and delivery |
+| JWT | Access & refresh token authentication |
 | bcrypt | Password hashing |
 
 ### Frontend
 | Technology | Purpose |
 |---|---|
 | React | UI library |
-| Vite | Build tool and dev server |
-| React Router | Client-side routing and protected routes |
-| Tailwind CSS | Utility-first styling |
+| Axios | API communication with backend |
+| Server-Sent Events | Real-time order updates |
 
 ### Deployment
 | Layer | Platform |
