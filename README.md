@@ -117,7 +117,7 @@ Once confirmed, the order appears instantly on the staff screen.
 The table management screen shows all restaurant tables in a grid. Each card displays the table number and its current status.
 
 - **Green highlight + pax count** - table is occupied, showing how many people are seated
-- **Livre** (grey) — table is free and available
+- **Grey** — table is free and available
 
 The header shows a summary: *X de Y abertas* (how many tables are currently open out of the total). Admins can open, close, and manage tables from this view.
 
@@ -134,19 +134,19 @@ The header shows a summary: *X de Y abertas* (how many tables are currently open
 ### Menu Management (Admin)
 - Create, edit, and delete categories and items
 - Set name, description, price, image, and category per item
-- Mark items as **EXTRA** (charged on top of the rodízio price)
+- Mark items as **EXTRA** (charged on top of the _all you can eat_ price)
 - Set a **maximum quantity** per item per order
 - Toggle item visibility without deleting it
 
 ### Service Mode Configuration (Admin)
 - Two service modes supported: **All you can eat** and **À la carte**
-- In rodízio mode, a fixed price per person is charged - configurable by the admin
+- In _all you can eat_ mode, a fixed price per person is charged - configurable by the admin
 - Items can be marked as **EXTRA** in _all you can eat_ mode, carrying an additional charge on top of the fixed price
-- In à la carte mode, each item has its own price and customers pay per item
+- In _à la carte_ mode, each item has its own price and customers pay per item
 - All prices, limits, and service mode settings are fully adjustable from the admin panel
 
 ### Table Management
-- View all tables and their real-time status
+- View all tables and their real time status
 - See how many people are at each occupied table
 - Open and close tables
 
