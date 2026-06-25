@@ -22,7 +22,7 @@ You can log in and explore the app with the following accounts:
 | **Staff** | staff | 123 | Order management - view and update incoming orders |
 | **Dashboard** | dashboard | 123 | Dashboard view |
 
-> To test the **client experience**, scan or open the link below with a phone:
+> To test the **client experience**, open the link below with a phone:
 > [https://sushi-app-lac.vercel.app/client?table=1](https://sushi-app-lac.vercel.app/client?table=1)
 >
 > The table must be open for the client interface to work. To open a table, log in as **dashboard** and open it from the dashboard.
@@ -39,9 +39,6 @@ https://sushi-app-lac.vercel.app/client?table=2
 https://sushi-app-lac.vercel.app/client?table=3
 ...
 ```
-
-No app to install. No account needed. Customers scan, browse, and order — all from their own phone.
-
 ---
 
 ## Overview
