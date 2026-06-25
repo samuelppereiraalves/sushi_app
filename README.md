@@ -4,7 +4,7 @@ A full-stack web application for managing a sushi restaurant with two service mo
 
 ---
 
-## 🌐 Live
+## Live
 
 | Service | Platform | URL |
 |---|---|---|
@@ -12,7 +12,7 @@ A full-stack web application for managing a sushi restaurant with two service mo
 
 ---
 
-## 🔑 Test Credentials
+## Test Credentials
 
 You can log in and explore the app with the following accounts:
 
@@ -22,14 +22,14 @@ You can log in and explore the app with the following accounts:
 | **Staff** | staff | 123 | Order management — view and update incoming orders |
 | **Dashboard** | dashboard | 123 | Dashboard view |
 
-> 💡 To test the **client experience**, scan or open the link below with a phone:
+> To test the **client experience**, scan or open the link below with a phone:
 > [https://sushi-app-lac.vercel.app/client?table=1](https://sushi-app-lac.vercel.app/client?table=1)
 >
 > **Note:** The table must be open for the client interface to work. To open a table, log in as **dashboard** and open it from the dashboard.
 
 ---
 
-## 📱 Client Access via QR Code
+## Client Access via QR Code
 
 Clients access the app by scanning a **QR code placed on their table**. Each code points to a unique URL that automatically identifies the table and loads the menu:
 
@@ -44,7 +44,7 @@ No app to install. No account needed. Customers scan, browse, and order — all 
 
 ---
 
-## 📌 Overview
+## Overview
 
 This system was built to fully manage a sushi restaurant that supports two service modes — **all you can eat** and **à la carte** — selectable per table. In rodízio mode, customers pay a fixed price per person and order freely from the menu, with certain items marked as **EXTRA** at an additional cost. In à la carte mode, every item has its own price and customers pay for exactly what they order.
 
@@ -60,9 +60,9 @@ The app is fully **responsive**, working on any device — essential for clients
 
 ---
 
-## 🖥️ Screens & Functionality
+## Screens & Functionality
 
-### 🍱 Admin — Menu Management
+### Admin — Menu Management
 
 The main admin panel shows the full menu organised by category (Bebidas, Entradas, Gunkan, Maki, Niguiri, Sashimi, Sobremesas, Temaki, Uramaki). Each item displays its photo, name, description, price, category badge, and whether it's marked as **EXTRA**.
 
@@ -79,7 +79,7 @@ Items with a **MÁX** badge show the maximum quantity a client can order of that
 
 ---
 
-### 📋 Staff — Order Management
+### Staff — Order Management
 
 The staff screen shows all active orders grouped by table, in real time. A counter in the header shows the number of pending orders. Staff can also toggle a **sound alert** on/off to be notified when new orders arrive.
 
@@ -95,7 +95,7 @@ Staff can update the order status directly from the card:
 
 ---
 
-### 📱 Client — Menu (Mobile via QR Code)
+### Client — Menu (Mobile via QR Code)
 
 The client interface is designed for mobile and accessed by scanning the QR code on the table. The table number and service type (**Rodízio**) are shown at the top.
 
@@ -115,7 +115,7 @@ Once confirmed, the order appears instantly on the staff screen.
 
 ---
 
-### 🪑 Table Management
+### Table Management
 
 The table management screen shows all restaurant tables in a grid. Each card displays the table number and its current status.
 
@@ -126,54 +126,54 @@ The header shows a summary: *X de Y abertas* (how many tables are currently open
 
 ---
 
-## ✨ Features Summary
+## Features Summary
 
-### 🔐 Authentication & Authorization
+### Authentication & Authorization
 - JWT-based login with access and refresh tokens
 - Role-based access control — Admin, Staff, Client
 - Protected routes on frontend and backend
 - Unauthorized access redirects to a NoAccess page
 
-### 🍱 Menu Management (Admin)
+### Menu Management (Admin)
 - Create, edit, and delete categories and items
 - Set name, description, price, image, and category per item
 - Mark items as **EXTRA** (charged on top of the rodízio price)
 - Set a **maximum quantity** per item per order
 - Toggle item visibility without deleting it
 
-### 🎡 Service Mode Configuration (Admin)
+### Service Mode Configuration (Admin)
 - Two service modes supported: **All you can eat** and **À la carte**
 - In rodízio mode, a fixed price per person is charged — configurable by the admin
 - Items can be marked as **EXTRA** in _all you can eat_ mode, carrying an additional charge on top of the fixed price
 - In à la carte mode, each item has its own price and customers pay per item
 - All prices, limits, and service mode settings are fully adjustable from the admin panel
 
-### 🪑 Table Management
+### Table Management
 - View all tables and their real-time status
 - See how many people are at each occupied table
 - Open and close tables
 
-### 📦 Order Management
+### Order Management
 - Clients place orders from their phone via QR code
 - Orders appear instantly on the staff screen, grouped by table
 - Staff update order status: *Em preparação* → *Entregue*
 - Sound notification alerts staff to new orders
 
-### 👥 User Management (Admin)
+### User Management (Admin)
 - Create and manage admin and staff accounts
 - Control access and roles across the system
 
-### 📊 Statistics (Admin)
+### Statistics (Admin)
 - Revenue summaries
 - Order volume over time
 - Most popular items
 
-### ⚙️ Settings (Admin)
+### Settings (Admin)
 - Restaurant configuration via a dedicated Definições panel
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 | Technology | Purpose |
@@ -199,9 +199,3 @@ The header shows a summary: *X de Y abertas* (how many tables are currently open
 | Frontend | Vercel |
 | Backend | Render |
 | Database | MongoDB Atlas |
-
----
-
-## 📄 License
-
-This project is private. All rights reserved.
