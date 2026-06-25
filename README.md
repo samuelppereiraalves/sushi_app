@@ -25,7 +25,7 @@ You can log in and explore the app with the following accounts:
 > To test the **client experience**, scan or open the link below with a phone:
 > [https://sushi-app-lac.vercel.app/client?table=1](https://sushi-app-lac.vercel.app/client?table=1)
 >
-> **Note:** The table must be open for the client interface to work. To open a table, log in as **dashboard** and open it from the dashboard.
+> The table must be open for the client interface to work. To open a table, log in as **dashboard** and open it from the dashboard.
 
 ---
 
@@ -62,7 +62,7 @@ The app is fully **responsive**, working on any device - essential for clients o
 
 ## Screens & Functionality
 
-### Admin — Menu Management
+### Admin - Menu Management
 
 The main admin panel shows the full menu organised by category (Bebidas, Entradas, Gunkan, Maki, Niguiri, Sashimi, Sobremesas, Temaki, Uramaki). Each item displays its photo, name, description, price, category badge, and whether it's marked as **EXTRA**.
 
@@ -79,7 +79,7 @@ Items with a **MÁX** badge show the maximum quantity a client can order of that
 
 ---
 
-### Staff — Order Management
+### Staff - Order Management
 
 The staff screen shows all active orders grouped by table, in real time. A counter in the header shows the number of pending orders. Staff can also toggle a **sound alert** on/off to be notified when new orders arrive.
 
